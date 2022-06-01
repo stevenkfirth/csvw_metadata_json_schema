@@ -1,0 +1,85 @@
+{
+    "$id": "csvw_schema_dialect_description",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "oneOf": [
+                {
+                    "type": "string",
+                    "const": "http://www.w3.org/ns/csvw"
+                },
+                {
+                    "type": "array",
+                    "prefixItems": [
+                        {
+                            "type": "string",
+                            "const": "http://www.w3.org/ns/csvw"
+                        },
+                        {
+                            "type": "object"
+                        }
+                    ]
+                }
+            ]
+        },
+        "commentPrefix": {
+            "type": "string"
+        },
+        "delimiter": {
+            "type": "string"
+        },
+        "doubleQuote": {
+            "type": "boolean"
+        },
+        "encoding": {
+            "type": "string"
+        },
+        "header": {
+            "type": "boolean"
+        },
+        "headerRowCount": {
+            "type": "integer"
+        },
+        "lineTerminators": {
+            "type": "array"
+        },
+        "quoteChar": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "skipBlankRows": {
+            "type": "boolean"
+        },
+        "skipColumns": {
+            "type": "integer"
+        },
+        "trim": {
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "enum": [
+                        "true",
+                        "false",
+                        "start",
+                        "end"
+                    ]
+                }
+            ]
+        },
+        "@id": {
+            "type": "string"
+        },
+        "@type": {
+            "type": "string",
+            "const": "Dialect"
+        }
+    }
+}
