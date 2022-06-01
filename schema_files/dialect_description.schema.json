@@ -1,5 +1,5 @@
 {
-    "$id": "csvw_schema_dialect_description",
+    "$id": "https://github.com/stevenkfirth/csvw_metadata_json_schema/blob/main/schema_files/dialect_description.schema.json",
     "type": "object",
     "properties": {
         "@context": {
