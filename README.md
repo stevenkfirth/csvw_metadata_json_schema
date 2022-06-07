@@ -12,7 +12,12 @@ This work aims to fill this gap by creating a series of JSON Schema files which 
 
 > Note: Note all the rules contained in the W3C Recommendation can be expressed in JSON Schema. Therefore validating csvw metafiles using the JSON Schema files here can only be considered as a partial validation and dows not mean that the csvw metafiles are fully commpliant with the W3C Recommendation.
 
-References:
+## Folder Descriptions
+
+- *schema_files* - contains the JSON schema files for the CSVW standard.
+- *tests* - contains Python code to test the validity of the schema files. 
+
+## References:
 
 - Metadata Vocabulary for Tabular Data: https://www.w3.org/TR/tabular-metadata/
 - CSVW: https://www.w3.org/TR/tabular-data-primer/
