@@ -10,7 +10,7 @@ Although the recommendation states that CSVW metadata files must be JSON, it doe
 
 This work aims to fill this gap by creating a series of JSON Schema files which can be used for creating and validating CSVW metadata file. 
 
-> Note: Note all the rules contained in the W3C Recommendation can be expressed in JSON Schema. Therefore validating csvw metafiles using the JSON Schema files here can only be considered as a partial validation and dows not mean that the csvw metafiles are fully commpliant with the W3C Recommendation.
+> Note: Not all the rules contained in the W3C Recommendation can be expressed in JSON Schema. Therefore validating csvw metafiles using the JSON Schema files here can only be considered as a partial validation and dows not mean that the csvw metafiles are fully commpliant with the W3C Recommendation.
 
 ## Folder Descriptions
 
