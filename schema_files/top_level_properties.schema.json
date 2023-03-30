@@ -24,18 +24,21 @@
                             "properties": {
                                 "@base": {
                                     "type": "uri-reference",
-                                    "description": "An atomic property that provides the base URL against which other URLs within the metadata file are resolved."
+                                    "description": "An atomic property that provides the base URL against which other URLs within the metadata file are resolved.",
+                                    "$comment": "atomic property"
                                 },
                                 "@language" :{
                                     "type": "string",
                                     "description": "An atomic property that indicates the default language for the values of natural language or string-valued common properties in the metadata document; if present, its value must be a language code [BCP47].",
-                                    "default": "und"
+                                    "default": "und",
+                                    "$comment": "atomic property"
                                 }
                             }
                         }
                     ]
                 }
-            ]
+            ],
+            "$comment": "array property"
         }
         
     }

@@ -13,10 +13,12 @@
                     "type": "array",
                     "items": {"type":"string"}
                 }
-            ]
+            ],
+            "$comment": "column reference property"
         },
         "reference": {
-            "$ref": "https://github.com/stevenkfirth/csvw_metadata_json_schema/blob/main/schema_files/foreign_key_reference.schema.json"
+            "$ref": "https://raw.githubusercontent.com/stevenkfirth/csvw_metadata_json_schema/main/schema_files/foreign_key_reference.schema.json",
+            "$comment": "object property"
         }
     }
 }

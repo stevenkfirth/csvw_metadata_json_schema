@@ -8,16 +8,19 @@
         "decimalChar": {
             "default": ".",
             "description": "A string whose value is used to represent a decimal point within the number.",
-            "type": "string"
+            "type": "string",
+            "$comment": "atomic property"
         },
         "groupChar": {
             "default": null,
             "description": "A string whose value is used to group digits within the number.",
-            "type": "string"
+            "type": "string",
+            "$comment": "atomic property"
         },
         "pattern": {
             "description": "A number format pattern as defined in [UAX35].",
-            "type": "string"
+            "type": "string",
+            "$comment": "atomic property"
         }
     }
 }
